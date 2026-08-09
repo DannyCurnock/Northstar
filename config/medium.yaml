@@ -1,0 +1,20 @@
+environment: medium
+
+date_range:
+  start_date: 2023-01-01
+  end_date: 2027-12-31
+
+business:
+  legal_entities: 6
+  sites: 100
+  products: 5000
+  suppliers: 500
+
+data_volumes:
+  sales_rows: 3000000
+  inventory_rows: 1500000
+  purchase_invoice_rows: 250000
+  tax_transaction_rows: 2000000
+  gl_journal_rows: 3000000
+
+random_seed: 42

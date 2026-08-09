@@ -1,0 +1,20 @@
+environment: large
+
+date_range:
+  start_date: 2023-01-01
+  end_date: 2027-12-31
+
+business:
+  legal_entities: 8
+  sites: 200
+  products: 30000
+  suppliers: 1500
+
+data_volumes:
+  sales_rows: 20000000
+  inventory_rows: 10000000
+  purchase_invoice_rows: 1500000
+  tax_transaction_rows: 10000000
+  gl_journal_rows: 15000000
+
+random_seed: 42
